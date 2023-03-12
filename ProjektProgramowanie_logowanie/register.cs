@@ -21,7 +21,7 @@ namespace ProjektProgramowanie_logowanie
 
 
 
-       // private SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        private SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         
         
         
@@ -52,7 +52,7 @@ namespace ProjektProgramowanie_logowanie
 
             try
             {
-                SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                //SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
 
                 sqlcon.Open();
@@ -79,6 +79,10 @@ namespace ProjektProgramowanie_logowanie
                         {
                             MessageBox.Show("Zarejestrowano pomyślnie", "Zarejestrowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
+                        else
+                        {
+                            MessageBox.Show("coś poszło nie halo");
+                        }
                     }
                     else
                     {
@@ -92,7 +96,7 @@ namespace ProjektProgramowanie_logowanie
             }
             catch
             {
-                MessageBox.Show("An error occurred while connecting to the database");
+                MessageBox.Show("Brak połączenia z bazą danych. Spróbuj ponownie później.");
             }
 
 
