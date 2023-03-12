@@ -53,6 +53,7 @@
             this.newpassword.Name = "newpassword";
             this.newpassword.Size = new System.Drawing.Size(176, 15);
             this.newpassword.TabIndex = 3;
+            this.newpassword.TextChanged += new System.EventHandler(this.newpassword_TextChanged);
             // 
             // newemail
             // 
@@ -71,6 +72,8 @@
             this.phonenmbr.Name = "phonenmbr";
             this.phonenmbr.Size = new System.Drawing.Size(176, 15);
             this.phonenmbr.TabIndex = 5;
+            this.phonenmbr.TextChanged += new System.EventHandler(this.phonenmbr_TextChanged);
+            this.phonenmbr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.phonenmbr_KeyPress);
             // 
             // newregisterButton
             // 
