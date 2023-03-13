@@ -24,7 +24,6 @@ namespace ProjektProgramowanie_logowanie
         private SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         
         
-        
         private bool IsValidEmail(string email)
         {
             var trimmedEmail = email.Trim();
@@ -45,11 +44,11 @@ namespace ProjektProgramowanie_logowanie
 
         private void newregisterButton_Click(object sender, EventArgs e)
         {
+
             string login = newlogin.Text;
             string password = newpassword.Text;
             string email = newemail.Text;
             string number = phonenmbr.Text;
-
             try
             {
                 //SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
@@ -62,7 +61,7 @@ namespace ProjektProgramowanie_logowanie
                 SqlDataAdapter sda = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
-                sqlcon.Close();
+                
 
                 if (dt.Rows.Count <= 0)
                 {
@@ -73,7 +72,7 @@ namespace ProjektProgramowanie_logowanie
                         sqlcon.Open();
                         var x = cmd.ExecuteNonQuery();
 
-                        sqlcon.Close();
+                        
 
                         if (x != 0)
                         {
@@ -81,7 +80,7 @@ namespace ProjektProgramowanie_logowanie
                         }
                         else
                         {
-                            MessageBox.Show("coś poszło nie halo");
+                            MessageBox.Show("coś poszło nie tak");
                         }
                     }
                     else
@@ -93,6 +92,7 @@ namespace ProjektProgramowanie_logowanie
                 {
                     MessageBox.Show("Podany login istnieje.");
                 }
+                sqlcon.Close();
             }
             catch
             {
