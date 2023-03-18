@@ -1,0 +1,17 @@
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe.config
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.pdb
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.pdb
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.AssemblyReference.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.login.resources
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Properties.Resources.resources
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.register.resources
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.GenerateResource.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CoreCompileInputs.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CopyComplete
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Form1.resources

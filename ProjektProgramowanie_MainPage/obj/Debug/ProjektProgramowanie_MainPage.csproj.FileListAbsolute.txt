@@ -1,0 +1,10 @@
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.pdb
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.AssemblyReference.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.Properties.Resources.resources
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.GenerateResource.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CoreCompileInputs.cache
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.exe
+C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.pdb

@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace ProjektProgramowanie_logowanie {
+namespace projektProgramowanie_logowanie {
     
     
     /// <summary>
@@ -1810,7 +1810,7 @@ namespace ProjektProgramowanie_logowanie {
         }
     }
 }
-namespace ProjektProgramowanie_logowanie.StoMaToLogiczneDataSetTableAdapters {
+namespace projektProgramowanie_logowanie.StoMaToLogiczneDataSetTableAdapters {
     
     
     /// <summary>
@@ -1995,7 +1995,7 @@ SELECT id, first_name, last_name, email, phone, specialization FROM doctor WHERE
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProjektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
+            this._connection.ConnectionString = global::projektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2446,7 +2446,7 @@ SELECT id, user_id, doctor_id, meeting_date FROM Orders WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProjektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
+            this._connection.ConnectionString = global::projektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2848,7 +2848,7 @@ SELECT id, login, password, email, phone FROM Users WHERE (id = @id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ProjektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
+            this._connection.ConnectionString = global::projektProgramowanie_logowanie.Properties.Settings.Default.StoMaToLogiczneConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
