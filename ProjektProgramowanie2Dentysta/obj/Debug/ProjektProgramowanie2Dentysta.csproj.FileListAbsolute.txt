@@ -1,0 +1,10 @@
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.AssemblyReference.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Properties.Resources.resources
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.GenerateResource.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.CoreCompileInputs.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.exe
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.pdb
