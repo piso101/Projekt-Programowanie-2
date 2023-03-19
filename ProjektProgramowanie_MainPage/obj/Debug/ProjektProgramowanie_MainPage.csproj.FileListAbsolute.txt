@@ -8,3 +8,13 @@ C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowan
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CoreCompileInputs.cache
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.exe
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.pdb
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.pdb
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.AssemblyReference.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.Properties.Resources.resources
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.GenerateResource.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CoreCompileInputs.cache
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.exe
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.pdb

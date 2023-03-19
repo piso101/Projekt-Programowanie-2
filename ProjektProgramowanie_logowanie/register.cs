@@ -18,8 +18,8 @@ namespace projektProgramowanie_logowanie
             InitializeComponent();
         }
 
-        private SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-
+        SqlConnection sqlcon = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogiczne;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        
         private bool IsValidEmail(string email)
         {
             var trimmedEmail = email.Trim();
@@ -52,11 +52,10 @@ namespace projektProgramowanie_logowanie
             string password = newpassword.Text;
             string email = newemail.Text;
             string number = phonenmbr.Text;
-            try
-            {
 
 
-                sqlcon.Open();
+
+                sqlcon.Open();//
                 SqlCommand command = sqlcon.CreateCommand();
                 command.CommandText = "Select login from Users where login=@Login";
                 command.Parameters.AddWithValue("@Login", login);
@@ -118,11 +117,7 @@ namespace projektProgramowanie_logowanie
                     MessageBox.Show("Podany login istnieje.");
                 }
                 
-            }
-            catch
-            {
-                MessageBox.Show("Brak połączenia z bazą danych. Spróbuj ponownie później.");
-            }
+
           
         }
 

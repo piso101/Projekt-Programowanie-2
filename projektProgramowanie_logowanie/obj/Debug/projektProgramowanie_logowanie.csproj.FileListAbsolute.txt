@@ -15,3 +15,20 @@ C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowan
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
 C:\Users\Lord Olaf\source\repos\ProjektProgramowanie2Dentysta\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Form1.resources
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe.config
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.pdb
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.pdb
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.AssemblyReference.cache
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Form1.resources
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.login.resources
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Properties.Resources.resources
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.register.resources
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.GenerateResource.cache
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CoreCompileInputs.cache
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CopyComplete
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
