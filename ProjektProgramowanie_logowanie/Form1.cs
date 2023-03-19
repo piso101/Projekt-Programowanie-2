@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjektProgramowanie_logowanie
+namespace projektProgramowanie_logowanie
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void register1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

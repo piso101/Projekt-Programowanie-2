@@ -1,4 +1,4 @@
-﻿namespace ProjektProgramowanie_logowanie
+﻿namespace projektProgramowanie_logowanie
 {
     partial class register
     {
@@ -34,74 +34,76 @@
             this.phonenmbr = new System.Windows.Forms.TextBox();
             this.newregisterButton = new System.Windows.Forms.Button();
             this.backbutton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // newlogin
             // 
-            this.newlogin.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.newlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.newlogin.Location = new System.Drawing.Point(320, 168);
+            this.newlogin.Location = new System.Drawing.Point(311, 163);
             this.newlogin.Name = "newlogin";
-            this.newlogin.Size = new System.Drawing.Size(176, 15);
-            this.newlogin.TabIndex = 2;
+            this.newlogin.Size = new System.Drawing.Size(195, 22);
+            this.newlogin.TabIndex = 0;
             // 
             // newpassword
             // 
-            this.newpassword.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.newpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.newpassword.Location = new System.Drawing.Point(320, 211);
+            this.newpassword.Location = new System.Drawing.Point(311, 208);
             this.newpassword.Name = "newpassword";
-            this.newpassword.Size = new System.Drawing.Size(176, 15);
-            this.newpassword.TabIndex = 3;
+            this.newpassword.Size = new System.Drawing.Size(195, 22);
+            this.newpassword.TabIndex = 1;
             this.newpassword.TextChanged += new System.EventHandler(this.newpassword_TextChanged);
             // 
             // newemail
             // 
-            this.newemail.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.newemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.newemail.Location = new System.Drawing.Point(320, 255);
+            this.newemail.Location = new System.Drawing.Point(311, 253);
             this.newemail.Name = "newemail";
-            this.newemail.Size = new System.Drawing.Size(176, 15);
-            this.newemail.TabIndex = 4;
+            this.newemail.Size = new System.Drawing.Size(195, 22);
+            this.newemail.TabIndex = 2;
             // 
             // phonenmbr
             // 
-            this.phonenmbr.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.phonenmbr.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.phonenmbr.Location = new System.Drawing.Point(320, 301);
+            this.phonenmbr.Location = new System.Drawing.Point(311, 298);
             this.phonenmbr.Name = "phonenmbr";
-            this.phonenmbr.Size = new System.Drawing.Size(176, 15);
-            this.phonenmbr.TabIndex = 5;
+            this.phonenmbr.Size = new System.Drawing.Size(195, 22);
+            this.phonenmbr.TabIndex = 3;
             this.phonenmbr.TextChanged += new System.EventHandler(this.phonenmbr_TextChanged);
             this.phonenmbr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.phonenmbr_KeyPress);
             // 
             // newregisterButton
             // 
-            this.newregisterButton.Location = new System.Drawing.Point(295, 352);
+            this.newregisterButton.Location = new System.Drawing.Point(290, 351);
             this.newregisterButton.Name = "newregisterButton";
-            this.newregisterButton.Size = new System.Drawing.Size(213, 27);
-            this.newregisterButton.TabIndex = 6;
-            this.newregisterButton.Text = "rejestracja";
+            this.newregisterButton.Size = new System.Drawing.Size(216, 29);
+            this.newregisterButton.TabIndex = 4;
+            this.newregisterButton.Text = "button1";
             this.newregisterButton.UseVisualStyleBackColor = true;
             this.newregisterButton.Click += new System.EventHandler(this.newregisterButton_Click);
             // 
             // backbutton
             // 
-            this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.backbutton.Location = new System.Drawing.Point(103, 419);
+            this.backbutton.Location = new System.Drawing.Point(66, 458);
             this.backbutton.Name = "backbutton";
             this.backbutton.Size = new System.Drawing.Size(75, 23);
-            this.backbutton.TabIndex = 7;
-            this.backbutton.Text = "Cofnij";
+            this.backbutton.TabIndex = 5;
+            this.backbutton.Text = "button1";
             this.backbutton.UseVisualStyleBackColor = true;
-            this.backbutton.Click += new System.EventHandler(this.backbutton_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(101, 406);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ProjektProgramowanie_logowanie.Properties.Resources.Rejestracja;
+            this.BackgroundImage = global::projektProgramowanie_logowanie.Properties.Resources.Rejestracja;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.backbutton);
             this.Controls.Add(this.newregisterButton);
             this.Controls.Add(this.phonenmbr);
@@ -110,7 +112,7 @@
             this.Controls.Add(this.newlogin);
             this.DoubleBuffered = true;
             this.Name = "register";
-            this.Size = new System.Drawing.Size(801, 451);
+            this.Size = new System.Drawing.Size(797, 452);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,5 +126,6 @@
         private System.Windows.Forms.TextBox phonenmbr;
         private System.Windows.Forms.Button newregisterButton;
         private System.Windows.Forms.Button backbutton;
+        private System.Windows.Forms.Button button1;
     }
 }

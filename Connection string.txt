@@ -1,1 +1,0 @@
-Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogicznie;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;

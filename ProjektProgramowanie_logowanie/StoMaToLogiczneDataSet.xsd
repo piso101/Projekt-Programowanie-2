@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="StoMaToLogiczneConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StoMaToLogiczneConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ProjektProgramowanie_logowanie.Properties.Settings.GlobalReference.Default.StoMaToLogiczneConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="StoMaToLogiczneConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StoMaToLogiczneConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.projektProgramowanie_logowanie.Properties.Settings.GlobalReference.Default.StoMaToLogiczneConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="doctorTableAdapter" GeneratorDataComponentClassName="doctorTableAdapter" Name="doctor" UserDataComponentName="doctorTableAdapter">

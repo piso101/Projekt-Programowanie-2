@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjektProgramowanie_logowanie.Properties {
+namespace projektProgramowanie_logowanie.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -27,7 +27,7 @@ namespace ProjektProgramowanie_logowanie.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=onlinegradebook.database.windows.net;Initial Catalog=StoMaToLogiczne;" +
-            "User ID=theedziu;Password=Kacper123")]
+            "Persist Security Info=True;User ID=theedziu;Password=Kacper123")]
         public string StoMaToLogiczneConnectionString {
             get {
                 return ((string)(this["StoMaToLogiczneConnectionString"]));

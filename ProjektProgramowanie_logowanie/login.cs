@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjektProgramowanie_logowanie
+namespace projektProgramowanie_logowanie
 {
     public partial class login : UserControl
     {
@@ -17,20 +17,12 @@ namespace ProjektProgramowanie_logowanie
             InitializeComponent();
         }
 
-        private void register_Click(object sender, EventArgs e)
+        private void registerButton_Click(object sender, EventArgs e)
         {
-            
             register register = new register(); //nadajemy instancje
             this.Parent.Controls.Add(register); // user control(login) jest rodzicem wzglédem registera
             register.BringToFront(); //po kliknieciu wybierze go  na front i odda miejsce w hierarchi dla registera
             this.Parent.Controls.Remove(this);
-
-        }
-
-        private void passwordBox_TextChanged(object sender, EventArgs e)
-        {
-            passwordBox.UseSystemPasswordChar = true;
         }
     }
 }
-

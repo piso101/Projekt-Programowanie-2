@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("ProjektProgramowanie_logowanie")]
+[assembly: AssemblyTitle("projektProgramowanie_logowanie")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProjektProgramowanie_logowanie")]
+[assembly: AssemblyProduct("projektProgramowanie_logowanie")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Następujący identyfikator GUID jest identyfikatorem biblioteki typów w przypadku udostępnienia tego projektu w modelu COM
-[assembly: Guid("457d20e9-4adb-4fa0-8e86-a8cd6368ceda")]
+[assembly: Guid("922ad4ac-d996-4fd4-b9e0-a66a205dfe54")]
 
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //
