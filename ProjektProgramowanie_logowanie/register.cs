@@ -48,7 +48,7 @@ namespace projektProgramowanie_logowanie
 
         private void newregisterButton_Click(object sender, EventArgs e)
         {
-            string login = newlogin.Text;
+            string logint = newlogin.Text;
             string password = newpassword.Text;
             string email = newemail.Text;
             string number = phonenmbr.Text;
@@ -58,7 +58,7 @@ namespace projektProgramowanie_logowanie
                 sqlcon.Open();//
                 SqlCommand command = sqlcon.CreateCommand();
                 command.CommandText = "Select login from Users where login=@Login";
-                command.Parameters.AddWithValue("@Login", login);
+                command.Parameters.AddWithValue("@Login", logint);
                 SqlDataAdapter sda = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
@@ -68,7 +68,7 @@ namespace projektProgramowanie_logowanie
                 if (dt.Rows.Count <= 0)
                 {
 
-                    if ((login != "") && (password != "") && (password.Length > 8) && (email != "") && (number != "") && IsValidEmail(email) == true)
+                    if ((logint != "") && (password != "") && (password.Length > 8) && (email != "") && (number != "") && IsValidEmail(email) == true)
                     {
                         sqlcon.Open();
 
@@ -83,12 +83,12 @@ namespace projektProgramowanie_logowanie
                         string insertStatement = "INSERT INTO Users (id,login,password,email,phone ) VALUES (@ID, @FirstName, @LastName, @Email, @Password)";
                         SqlCommand cmd = new SqlCommand(insertStatement, sqlcon);
                         cmd.Parameters.AddWithValue("@ID", newId);
-                        cmd.Parameters.AddWithValue("@FirstName", login);
+                        cmd.Parameters.AddWithValue("@FirstName", logint);
                         cmd.Parameters.AddWithValue("@LastName", password);
                         cmd.Parameters.AddWithValue("@Email", email);
                         cmd.Parameters.AddWithValue("@Password", number);
 
-                        cmd.ExecuteNonQuery();
+                        
 
 
                         var x = cmd.ExecuteNonQuery();
@@ -101,6 +101,12 @@ namespace projektProgramowanie_logowanie
                         if (x != 0)
                         {
                             MessageBox.Show("Zarejestrowano pomyślnie", "Zarejestrowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                           login login = new login();
+                           this.Parent.Controls.Add(login);
+                           login.BringToFront();
+                           this.Parent.Controls.Remove(this);
+
                         }
                         else
                         {
