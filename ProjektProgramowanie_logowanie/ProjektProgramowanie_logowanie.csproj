@@ -115,6 +115,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ProjektProgramowanie2Dentysta\ProjektProgramowanie2Dentysta.csproj">
+      <Project>{1be0c5b8-7cb2-4702-bae9-f0890b7a02fc}</Project>
+      <Name>ProjektProgramowanie2Dentysta</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProjektProgramowanie_MainPage\ProjektProgramowanie_MainPage.csproj">
       <Project>{6217b36b-6da8-42dc-b02a-a8546ca7ba26}</Project>
       <Name>ProjektProgramowanie_MainPage</Name>

@@ -18,3 +18,17 @@ D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\Projek
 D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CoreCompileInputs.cache
 D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.exe
 D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.exe
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie_MainPage.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.AssemblyReference.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.SuggestedBindingRedirects.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.Properties.Resources.resources
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.GenerateResource.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CoreCompileInputs.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.exe
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CopyComplete

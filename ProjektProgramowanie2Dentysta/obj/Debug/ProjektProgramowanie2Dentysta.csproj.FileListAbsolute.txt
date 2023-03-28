@@ -1,0 +1,11 @@
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.AssemblyReference.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.SuggestedBindingRedirects.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Properties.Resources.resources
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.GenerateResource.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.CoreCompileInputs.cache
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.exe
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Form2.resources

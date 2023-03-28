@@ -49,3 +49,23 @@ C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie
 C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CopyComplete
 C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
 C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe.config
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.exe
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\projektProgramowanie_logowanie.pdb
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.pdb
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie_MainPage.exe.config
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.AssemblyReference.cache
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.SuggestedBindingRedirects.cache
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Form1.resources
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.login.resources
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.Properties.Resources.resources
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.register.resources
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.GenerateResource.cache
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CoreCompileInputs.cache
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CopyComplete
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
