@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProjektProgramowanie_logowanie"
+    "\\ProjektProgramowanie_logowanie",
+    "\\ProjektProgramowanie_MainPage"
   ],
-  "SelectedNode": "\\ProjektProgramowanie_logowanie\\login.cs",
+  "SelectedNode": "\\ProjektProgramowanie_MainPage\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

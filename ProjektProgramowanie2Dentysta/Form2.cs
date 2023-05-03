@@ -18,6 +18,9 @@ namespace ProjektProgramowanie2Dentysta
 		public static string user_name;
 		public static string user_password;
 		public static int id;
+		public static int doctor_id;
+		public static string picked_date;
+		public static string picked_time;
 		SqlConnection cn = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogiczne;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 		SqlCommand cmd;
 		SqlDataReader rd;
@@ -63,21 +66,38 @@ namespace ProjektProgramowanie2Dentysta
 		{
 			try
 			{
+				string meeting_date = picked_date + ";" + picked_time;
 				SqlCommand cmdinsert = new SqlCommand();
 				cmdinsert.Connection = cn;
 				cmdinsert.CommandText = "INSERT INTO Orders (user_id,doctor_id,meeting_date) Values (@pam1,@pam2,@pam3)";
 				//dodajemy wartości do komendy sql
 				cmdinsert.Parameters.AddWithValue("@pam1", id);
 				cmdinsert.Parameters.AddWithValue("@pam2", doctor_id);
-				cmdinsert.Parameters.AddWithValue("@pam3", date_box.Text.ToString());
+				cmdinsert.Parameters.AddWithValue("@pam3", meeting_date);
 				cmdinsert.CommandType = CommandType.Text;
 				cmdinsert.ExecuteNonQuery();//wykonujemy komende dodania rekordu w tablicy zabukowane
 			} 
 			catch(Exception ex)
 			{
-				Console.WriteLine(ex.Message + "LOL");
+				Console.WriteLine(ex.Message + "LOL"); 
+				
 			}
 
+		}
+
+		private void Form2_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void date_box_ValueChanged(object sender, EventArgs e)
+		{
+			picked_date = date_box.Text.ToString();
+		}
+
+		private void hour_box_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			picked_time = hour_box.Text.ToString();
 		}
 	}
 }

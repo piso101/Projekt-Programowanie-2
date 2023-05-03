@@ -32,3 +32,4 @@ D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\Projek
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.pdb
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CopyComplete
+D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.Form1.resources
