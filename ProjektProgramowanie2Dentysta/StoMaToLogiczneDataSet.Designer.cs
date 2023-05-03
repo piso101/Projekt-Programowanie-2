@@ -792,7 +792,7 @@ namespace ProjektProgramowanie2Dentysta {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public OrdersRow AddOrdersRow(int id, int user_id, int doctor_id, System.DateTime meeting_date) {
+            public OrdersRow AddOrdersRow(int id, int user_id, int doctor_id, string meeting_date) {
                 OrdersRow rowOrdersRow = ((OrdersRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
@@ -843,7 +843,7 @@ namespace ProjektProgramowanie2Dentysta {
                 base.Columns.Add(this.columnuser_id);
                 this.columndoctor_id = new global::System.Data.DataColumn("doctor_id", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndoctor_id);
-                this.columnmeeting_date = new global::System.Data.DataColumn("meeting_date", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                this.columnmeeting_date = new global::System.Data.DataColumn("meeting_date", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnmeeting_date);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
@@ -1518,10 +1518,10 @@ namespace ProjektProgramowanie2Dentysta {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public System.DateTime meeting_date {
+            public string meeting_date {
                 get {
                     try {
-                        return ((global::System.DateTime)(this[this.tableOrders.meeting_dateColumn]));
+                        return ((string)(this[this.tableOrders.meeting_dateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("Wartość z kolumny \'meeting_date\' w tabeli \'Orders\' to DBNull.", e);

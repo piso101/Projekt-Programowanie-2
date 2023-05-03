@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -66,21 +67,33 @@ namespace ProjektProgramowanie2Dentysta
 		{
 			try
 			{
-				string meeting_date = picked_date + ";" + picked_time;
+				cn.Open();
+				SqlCommand cmdcount = new SqlCommand();
+				cmdcount.CommandText = "SELECT COUNT(*) FROM Orders";
+				cmdcount.Connection = cn;
+				cmdcount.CommandType = CommandType.Text;
+				int order_id = cmdcount.ExecuteNonQuery();
+				doctor_id = 1; //doctor id (do zmiany)
+				id = 1; // id (do zmiany)
+				string meeting_date = picked_date + " " + picked_time+":00";
+				//DateTime date = meeting_date;
 				SqlCommand cmdinsert = new SqlCommand();
 				cmdinsert.Connection = cn;
-				cmdinsert.CommandText = "INSERT INTO Orders (user_id,doctor_id,meeting_date) Values (@pam1,@pam2,@pam3)";
+				
+				cmdinsert.CommandText = "INSERT INTO Orders (id,user_id,doctor_id,meeting_date) Values (@pam4,@pam1,@pam2,@pam3)";
 				//dodajemy wartości do komendy sql
 				cmdinsert.Parameters.AddWithValue("@pam1", id);
 				cmdinsert.Parameters.AddWithValue("@pam2", doctor_id);
 				cmdinsert.Parameters.AddWithValue("@pam3", meeting_date);
+				cmdinsert.Parameters.AddWithValue("@pam4", order_id);
 				cmdinsert.CommandType = CommandType.Text;
 				cmdinsert.ExecuteNonQuery();//wykonujemy komende dodania rekordu w tablicy zabukowane
+				cn.Close();
 			} 
 			catch(Exception ex)
 			{
-				Console.WriteLine(ex.Message + "LOL"); 
-				
+				Console.WriteLine(ex.Message + "LOL");
+				cn.Close();
 			}
 
 		}
