@@ -69,3 +69,6 @@ D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\proje
 D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe
 D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.pdb
 D:\Studia\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe.config

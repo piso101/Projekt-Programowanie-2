@@ -32,3 +32,12 @@ D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\Projek
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.pdb
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CopyComplete
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.Form1.resources
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\obj\Debug\ProjektProgramowanie_MainPage.csproj.CopyComplete
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\DevExpress.Data.v22.2.dll
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\DevExpress.Xpo.v22.2.dll
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\DevExpress.Data.v22.2.xml
+D:\GitHub\Projekt-Programowanie-2\ProjektProgramowanie_MainPage\bin\Debug\DevExpress.Xpo.v22.2.xml
