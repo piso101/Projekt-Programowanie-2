@@ -40,6 +40,7 @@ namespace ProjektProgramowanie_MainPage
 
         }
 
+
         private void doctorBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
@@ -95,4 +96,11 @@ namespace ProjektProgramowanie_MainPage
         }
 
     }
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
+
 }

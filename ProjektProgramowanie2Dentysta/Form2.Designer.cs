@@ -50,11 +50,13 @@
 			// 
 			this.date_box.AllowDrop = true;
 			this.date_box.CustomFormat = "";
+			this.date_box.Format = System.Windows.Forms.DateTimePickerFormat.Short;
 			this.date_box.ImeMode = System.Windows.Forms.ImeMode.NoControl;
 			this.date_box.Location = new System.Drawing.Point(236, 208);
 			this.date_box.Name = "date_box";
 			this.date_box.Size = new System.Drawing.Size(188, 20);
 			this.date_box.TabIndex = 1;
+			this.date_box.ValueChanged += new System.EventHandler(this.date_box_ValueChanged);
 			// 
 			// hour_box
 			// 
@@ -88,6 +90,7 @@
 			this.hour_box.Name = "hour_box";
 			this.hour_box.Size = new System.Drawing.Size(188, 21);
 			this.hour_box.TabIndex = 3;
+			this.hour_box.SelectedIndexChanged += new System.EventHandler(this.hour_box_SelectedIndexChanged);
 			// 
 			// main_btn
 			// 
@@ -138,6 +141,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.Name = "Form2";
 			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.Form2_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
