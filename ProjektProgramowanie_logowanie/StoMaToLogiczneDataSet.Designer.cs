@@ -688,6 +688,12 @@ namespace projektProgramowanie_logowanie {
             
             private global::System.Data.DataColumn columndoctor_id;
             
+            private global::System.Data.DataColumn columnwho;
+            
+            private global::System.Data.DataColumn columnmessage;
+            
+            private global::System.Data.DataColumn columnmeeting_time;
+            
             private global::System.Data.DataColumn columnmeeting_date;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -749,6 +755,30 @@ namespace projektProgramowanie_logowanie {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn whoColumn {
+                get {
+                    return this.columnwho;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn messageColumn {
+                get {
+                    return this.columnmessage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn meeting_timeColumn {
+                get {
+                    return this.columnmeeting_time;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn meeting_dateColumn {
                 get {
                     return this.columnmeeting_date;
@@ -792,12 +822,15 @@ namespace projektProgramowanie_logowanie {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public OrdersRow AddOrdersRow(int id, int user_id, int doctor_id, System.DateTime meeting_date) {
+            public OrdersRow AddOrdersRow(int id, int user_id, int doctor_id, string who, string message, string meeting_time, string meeting_date) {
                 OrdersRow rowOrdersRow = ((OrdersRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         id,
                         user_id,
                         doctor_id,
+                        who,
+                        message,
+                        meeting_time,
                         meeting_date};
                 rowOrdersRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowOrdersRow);
@@ -831,6 +864,9 @@ namespace projektProgramowanie_logowanie {
                 this.columnid = base.Columns["id"];
                 this.columnuser_id = base.Columns["user_id"];
                 this.columndoctor_id = base.Columns["doctor_id"];
+                this.columnwho = base.Columns["who"];
+                this.columnmessage = base.Columns["message"];
+                this.columnmeeting_time = base.Columns["meeting_time"];
                 this.columnmeeting_date = base.Columns["meeting_date"];
             }
             
@@ -843,7 +879,13 @@ namespace projektProgramowanie_logowanie {
                 base.Columns.Add(this.columnuser_id);
                 this.columndoctor_id = new global::System.Data.DataColumn("doctor_id", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columndoctor_id);
-                this.columnmeeting_date = new global::System.Data.DataColumn("meeting_date", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                this.columnwho = new global::System.Data.DataColumn("who", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnwho);
+                this.columnmessage = new global::System.Data.DataColumn("message", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnmessage);
+                this.columnmeeting_time = new global::System.Data.DataColumn("meeting_time", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnmeeting_time);
+                this.columnmeeting_date = new global::System.Data.DataColumn("meeting_date", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnmeeting_date);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
@@ -1518,10 +1560,58 @@ namespace projektProgramowanie_logowanie {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public System.DateTime meeting_date {
+            public string who {
                 get {
                     try {
-                        return ((global::System.DateTime)(this[this.tableOrders.meeting_dateColumn]));
+                        return ((string)(this[this.tableOrders.whoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Wartość z kolumny \'who\' w tabeli \'Orders\' to DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOrders.whoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string message {
+                get {
+                    if (this.IsmessageNull()) {
+                        return string.Empty;
+                    }
+                    else {
+                        return ((string)(this[this.tableOrders.messageColumn]));
+                    }
+                }
+                set {
+                    this[this.tableOrders.messageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string meeting_time {
+                get {
+                    try {
+                        return ((string)(this[this.tableOrders.meeting_timeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("Wartość z kolumny \'meeting_time\' w tabeli \'Orders\' to DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableOrders.meeting_timeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string meeting_date {
+                get {
+                    try {
+                        return ((string)(this[this.tableOrders.meeting_dateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("Wartość z kolumny \'meeting_date\' w tabeli \'Orders\' to DBNull.", e);
@@ -1554,6 +1644,42 @@ namespace projektProgramowanie_logowanie {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void Setdoctor_idNull() {
                 this[this.tableOrders.doctor_idColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IswhoNull() {
+                return this.IsNull(this.tableOrders.whoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetwhoNull() {
+                this[this.tableOrders.whoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsmessageNull() {
+                return this.IsNull(this.tableOrders.messageColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetmessageNull() {
+                this[this.tableOrders.messageColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Ismeeting_timeNull() {
+                return this.IsNull(this.tableOrders.meeting_timeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setmeeting_timeNull() {
+                this[this.tableOrders.meeting_timeColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

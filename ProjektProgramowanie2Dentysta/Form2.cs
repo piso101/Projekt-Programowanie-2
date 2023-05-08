@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,46 +17,22 @@ namespace ProjektProgramowanie2Dentysta
 {
     public partial class Form2 : Form
     {
-		public static string user_name;
-		public static string user_password;
-		public static int id;
-		public static int doctor_id;
+		public static int user_id;
+		public static int doctor_id = 1; //doctor id (do zmiany)
 		public static string picked_date;
 		public static string picked_time;
+		static bool date_bool = false;
+		static bool time_bool = false;
+		static bool who_bool = false;
+		static bool msg_bool = false;
 		SqlConnection cn = new SqlConnection(@"Server=tcp:onlinegradebook.database.windows.net,1433;Initial Catalog=StoMaToLogiczne;Persist Security Info=False;User ID=theedziu;Password=Kacper123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-		SqlCommand cmd;
-		SqlDataReader rd;
 		public Form2()
         {
             InitializeComponent();
 		}
-		public void Userd_id(string c, string d)
+		public void Userd_id(int id)
 		{
-			try
-			{
-				user_name = c.ToString();
-				user_password = d.ToString();
-				string command = "SELECT id FROM Users WHERE login = '" + user_name + "' AND password = '" + user_password + "'";
-				cn.Open();
-				SqlCommand cmd = new SqlCommand(command, cn);
-				SqlDataReader reader;
-				reader = cmd.ExecuteReader();
-				string userid = "";
-
-				while (reader.Read())
-				{
-					userid = reader["id"].ToString();
-				}
-
-				id = int.Parse(userid);
-				reader.Close();
-				
-			}
-			catch 
-			{ 
-				Console.WriteLine("Błąd_book");
-			}
-
+			user_id = id;
 		}
 		private void main_btn_Click(object sender, EventArgs e)
 		{
@@ -69,48 +46,137 @@ namespace ProjektProgramowanie2Dentysta
 			{
 				cn.Open();
 				SqlCommand cmdcount = new SqlCommand();
-				cmdcount.CommandText = "SELECT COUNT(*) FROM Orders";
+				cmdcount.CommandText = "SELECT COUNT(*) FROM Users";
 				cmdcount.Connection = cn;
-				cmdcount.CommandType = CommandType.Text;
-				int order_id = cmdcount.ExecuteNonQuery();
-				doctor_id = 1; //doctor id (do zmiany)
-				id = 1; // id (do zmiany)
-				string meeting_date = picked_date + " " + picked_time+":00";
-				//DateTime date = meeting_date;
+				string selectStatement = "SELECT TOP 1 id FROM Orders ORDER BY ID DESC";
+				SqlCommand selectCommand = new SqlCommand(selectStatement, cn);
+				int lastId = Convert.ToInt32(selectCommand.ExecuteScalar());
+				int newId = lastId + 1;
+				cn.Close();
+				if(time_bool==false)
+				{
+					MessageBox.Show("Proszę wybrać godzinę wizyty.");
+					return;
+
+				}
+				else if(date_bool==false)
+				{
+					MessageBox.Show("Proszę wybrać datę.");
+					return;
+				}
+				else if (who_bool == false)
+				{
+					MessageBox.Show("Proszę wpisać imię i nazwisko.");
+					return;
+				}
+				cn.Open();
 				SqlCommand cmdinsert = new SqlCommand();
 				cmdinsert.Connection = cn;
-				
-				cmdinsert.CommandText = "INSERT INTO Orders (id,user_id,doctor_id,meeting_date) Values (@pam4,@pam1,@pam2,@pam3)";
+				cmdinsert.CommandText = "INSERT INTO Orders (id,user_id,doctor_id,who,meeting_date,meeting_time,message) Values (@pam1,@pam2,@pam3,@pam4,@pam5,@pam6,@pam7)";
 				//dodajemy wartości do komendy sql
-				cmdinsert.Parameters.AddWithValue("@pam1", id);
-				cmdinsert.Parameters.AddWithValue("@pam2", doctor_id);
-				cmdinsert.Parameters.AddWithValue("@pam3", meeting_date);
-				cmdinsert.Parameters.AddWithValue("@pam4", order_id);
+				cmdinsert.Parameters.AddWithValue("@pam1", newId);
+				cmdinsert.Parameters.AddWithValue("@pam2", user_id);
+				cmdinsert.Parameters.AddWithValue("@pam3", doctor_id);
+				cmdinsert.Parameters.AddWithValue("@pam4", name_box.Text);
+				cmdinsert.Parameters.AddWithValue("@pam5", picked_date);
+				cmdinsert.Parameters.AddWithValue("@pam6", picked_time);
+				if(msg_bool==false)
+				{
+					cmdinsert.Parameters.AddWithValue("@pam7", "brak");
+				}
+				else
+				{
+					cmdinsert.Parameters.AddWithValue("@pam7", message_box.Text);
+				}				
 				cmdinsert.CommandType = CommandType.Text;
 				cmdinsert.ExecuteNonQuery();//wykonujemy komende dodania rekordu w tablicy zabukowane
 				cn.Close();
+				MessageBox.Show("Wizyta została umówiona.");
+				this.Close();
 			} 
 			catch(Exception ex)
 			{
-				Console.WriteLine(ex.Message + "LOL");
+				MessageBox.Show(ex.Message);
 				cn.Close();
 			}
+
 
 		}
 
 		private void Form2_Load(object sender, EventArgs e)
 		{
-
+			
 		}
 
 		private void date_box_ValueChanged(object sender, EventArgs e)
-		{
+		{ 
 			picked_date = date_box.Text.ToString();
+			date_bool = true;
+			if (DateTime.Parse(picked_date) <= DateTime.Now)
+			{
+				MessageBox.Show("Proszę wybrać poprawną datę.");
+				return;
+			}
+			else
+			{
+				ArrayList godziny = new ArrayList();
+				ArrayList godziny_dostepne = new ArrayList();
+				SqlCommand cmddt = new SqlCommand();
+				cmddt.Connection = cn;
+				cmddt.CommandText = "SELECT meeting_time FROM Orders WHERE meeting_date=@pam1 AND doctor_id=@pam2";
+				cmddt.Parameters.AddWithValue("@pam1", picked_date);
+				cmddt.Parameters.AddWithValue("@pam2", doctor_id);
+				SqlDataReader reader;
+				cn.Open();
+				reader = cmddt.ExecuteReader();
+				string hour = "";
+
+				while (reader.Read())
+				{
+					hour = reader["meeting_time"].ToString();
+					Console.WriteLine(hour);
+					godziny.Add(hour);
+				}
+				reader.Close();
+				cn.Close();
+				string[] godziny_comp = { "08:00", "08:30", "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30" };
+				foreach (string x in godziny_comp)
+				{
+					int check = 1;
+					foreach (string y in godziny)
+					{
+						if (x == y) check = 0;
+					}
+					if (check == 1)
+					{
+						godziny_dostepne.Add(x);
+
+					}
+				}
+				hour_box.Items.Clear();
+				foreach (string x in godziny_dostepne)
+				{
+					hour_box.Items.Add(x);
+				}
+			}
+			
+				
 		}
 
 		private void hour_box_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			picked_time = hour_box.Text.ToString();
+			picked_time = hour_box.SelectedItem.ToString();
+			if(picked_time != "Proszę wybrać datę.") time_bool = true;
+		}
+
+		private void name_box_TextChanged(object sender, EventArgs e)
+		{
+			if (name_box.Text != "Imię i nazwisko") who_bool = true;
+		}
+
+		private void message_box_TextChanged(object sender, EventArgs e)
+		{
+			msg_bool = true;
 		}
 	}
 }

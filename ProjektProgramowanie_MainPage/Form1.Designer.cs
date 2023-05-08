@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			this.umowione_wizyty1 = new ProjektProgramowanie_MainPage.Umowione_wizyty();
 			this.SuspendLayout();
+			// 
+			// umowione_wizyty1
+			// 
+			this.umowione_wizyty1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("umowione_wizyty1.BackgroundImage")));
+			this.umowione_wizyty1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.umowione_wizyty1.Location = new System.Drawing.Point(-4, 0);
+			this.umowione_wizyty1.Name = "umowione_wizyty1";
+			this.umowione_wizyty1.Size = new System.Drawing.Size(778, 444);
+			this.umowione_wizyty1.TabIndex = 0;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(774, 444);
+			this.Controls.Add(this.umowione_wizyty1);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -42,7 +54,9 @@
 
         }
 
-        #endregion
-    }
+		#endregion
+
+		private Umowione_wizyty umowione_wizyty1;
+	}
 }
 

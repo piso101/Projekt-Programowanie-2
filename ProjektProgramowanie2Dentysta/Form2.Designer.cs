@@ -34,7 +34,7 @@
 			this.hour_box = new System.Windows.Forms.ComboBox();
 			this.main_btn = new System.Windows.Forms.Button();
 			this.book_btn = new System.Windows.Forms.Button();
-			this.doctor_box = new System.Windows.Forms.ComboBox();
+			this.message_box = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// name_box
@@ -45,12 +45,16 @@
 			this.name_box.Size = new System.Drawing.Size(188, 20);
 			this.name_box.TabIndex = 0;
 			this.name_box.Text = "Imię i nazwisko";
+			this.name_box.TextChanged += new System.EventHandler(this.name_box_TextChanged);
 			// 
 			// date_box
 			// 
 			this.date_box.AllowDrop = true;
-			this.date_box.CustomFormat = "";
-			this.date_box.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+			this.date_box.CalendarMonthBackground = System.Drawing.Color.Transparent;
+			this.date_box.CalendarTitleBackColor = System.Drawing.Color.Transparent;
+			this.date_box.CalendarTitleForeColor = System.Drawing.Color.Transparent;
+			this.date_box.CustomFormat = "yyyy\'-\'MM\'-\'dd";
+			this.date_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
 			this.date_box.ImeMode = System.Windows.Forms.ImeMode.NoControl;
 			this.date_box.Location = new System.Drawing.Point(236, 208);
 			this.date_box.Name = "date_box";
@@ -60,32 +64,8 @@
 			// 
 			// hour_box
 			// 
-			this.hour_box.FormattingEnabled = true;
 			this.hour_box.Items.AddRange(new object[] {
-            "08:00",
-            "08:30",
-            "09:00",
-            "09:30",
-            "10:00",
-            "10:30",
-            "11:00",
-            "11:30",
-            "12:00",
-            "12:30",
-            "13:00",
-            "13:30",
-            "14:00",
-            "14:30",
-            "15:00",
-            "15:30",
-            "16:00",
-            "16:30",
-            "17:00",
-            "17:30",
-            "18:00",
-            "18:30",
-            "19:00",
-            "19:30"});
+            "Proszę wybrać datę."});
 			this.hour_box.Location = new System.Drawing.Point(236, 252);
 			this.hour_box.Name = "hour_box";
 			this.hour_box.Size = new System.Drawing.Size(188, 21);
@@ -108,6 +88,8 @@
 			// 
 			this.book_btn.BackColor = System.Drawing.Color.Transparent;
 			this.book_btn.FlatAppearance.BorderSize = 0;
+			this.book_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+			this.book_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
 			this.book_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.book_btn.Location = new System.Drawing.Point(203, 356);
 			this.book_btn.Name = "book_btn";
@@ -116,13 +98,15 @@
 			this.book_btn.UseVisualStyleBackColor = false;
 			this.book_btn.Click += new System.EventHandler(this.book_btn_Click);
 			// 
-			// doctor_box
+			// message_box
 			// 
-			this.doctor_box.FormattingEnabled = true;
-			this.doctor_box.Location = new System.Drawing.Point(236, 296);
-			this.doctor_box.Name = "doctor_box";
-			this.doctor_box.Size = new System.Drawing.Size(188, 21);
-			this.doctor_box.TabIndex = 6;
+			this.message_box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.message_box.Location = new System.Drawing.Point(236, 296);
+			this.message_box.Name = "message_box";
+			this.message_box.Size = new System.Drawing.Size(188, 20);
+			this.message_box.TabIndex = 6;
+			this.message_box.Text = "Uwagi (max 250 znaków)";
+			this.message_box.TextChanged += new System.EventHandler(this.message_box_TextChanged);
 			// 
 			// Form2
 			// 
@@ -131,7 +115,7 @@
 			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.ClientSize = new System.Drawing.Size(640, 450);
-			this.Controls.Add(this.doctor_box);
+			this.Controls.Add(this.message_box);
 			this.Controls.Add(this.book_btn);
 			this.Controls.Add(this.main_btn);
 			this.Controls.Add(this.hour_box);
@@ -154,7 +138,7 @@
 		private System.Windows.Forms.ComboBox hour_box;
 		private System.Windows.Forms.Button main_btn;
 		private System.Windows.Forms.Button book_btn;
-		private System.Windows.Forms.ComboBox doctor_box;
+		private System.Windows.Forms.TextBox message_box;
 	}
 }
 

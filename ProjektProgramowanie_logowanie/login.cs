@@ -24,8 +24,9 @@ namespace projektProgramowanie_logowanie
         SqlCommand cmd;
         SqlDataReader dr;
         public string booklogin;
+		public int user_id;
 
-        private void registerButton_Click(object sender, EventArgs e)
+		private void registerButton_Click(object sender, EventArgs e)
         {
             register register = new register(); //nadajemy instancje
             this.Parent.Controls.Add(register); // user control(login) jest rodzicem wzglédem registera
@@ -60,13 +61,13 @@ namespace projektProgramowanie_logowanie
 
 
                     MessageBox.Show("Witaj!");
+                    user_id = Userd_id(logint, passwordt);
+					ProjektProgramowanie_MainPage.Form1 f2 = new ProjektProgramowanie_MainPage.Form1();
+					Form1 f1 = new Form1();
+					f1.Close();
+                    f2.Id(user_id);
+					f2.Show();
 
-                    projektProgramowanie_logowanie.Form1 f1 = new projektProgramowanie_logowanie.Form1();
-                    ProjektProgramowanie_MainPage.Form1 f2 = new ProjektProgramowanie_MainPage.Form1();
-                    ProjektProgramowanie2Dentysta.Form2 f3 = new ProjektProgramowanie2Dentysta.Form2();
-                    f2.Userd_id(logint.ToString(), passwordt.ToString());
-                    f1.Hide();
-                    f2.Show();
 
 
 
@@ -88,5 +89,39 @@ namespace projektProgramowanie_logowanie
             }
             
         }
-    }
+		public int Userd_id(string c, string d)
+		{
+			try
+			{
+				sqlcon.Close();
+				string user_name = c.ToString();
+				string user_password = d.ToString();
+				string command = "SELECT id FROM Users WHERE login = '" + user_name + "' AND password = '" + user_password + "'";
+				sqlcon.Open();
+				SqlCommand cmd = new SqlCommand(command, sqlcon);
+				SqlDataReader reader;
+				reader = cmd.ExecuteReader();
+				string userid = "";
+
+				while (reader.Read())
+				{
+					userid = reader["id"].ToString();
+				}
+
+				int id = int.Parse(userid);
+				reader.Close();
+				sqlcon.Close();
+				Console.WriteLine(id);
+                return id;
+
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("id błąd "+ex);
+                return -1;
+			}
+
+		}
+		
+	}
 }
