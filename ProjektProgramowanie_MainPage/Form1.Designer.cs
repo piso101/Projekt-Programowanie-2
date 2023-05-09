@@ -40,39 +40,43 @@
             // 
             // doctorDataGridView
             // 
+            this.doctorDataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.doctorDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.doctorDataGridView.Location = new System.Drawing.Point(35, 92);
+            this.doctorDataGridView.Location = new System.Drawing.Point(121, 201);
             this.doctorDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.doctorDataGridView.Name = "doctorDataGridView";
             this.doctorDataGridView.RowHeadersWidth = 51;
-            this.doctorDataGridView.Size = new System.Drawing.Size(292, 199);
+            this.doctorDataGridView.Size = new System.Drawing.Size(772, 315);
             this.doctorDataGridView.TabIndex = 1;
             this.doctorDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.doctorDataGridView_CellContentClick);
             // 
             // Combobox_miasta
             // 
+            this.Combobox_miasta.BackColor = System.Drawing.SystemColors.Menu;
+            this.Combobox_miasta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Combobox_miasta.FormattingEnabled = true;
-            this.Combobox_miasta.Location = new System.Drawing.Point(52, 357);
+            this.Combobox_miasta.Location = new System.Drawing.Point(330, 129);
             this.Combobox_miasta.Margin = new System.Windows.Forms.Padding(4);
             this.Combobox_miasta.Name = "Combobox_miasta";
-            this.Combobox_miasta.Size = new System.Drawing.Size(272, 24);
+            this.Combobox_miasta.Size = new System.Drawing.Size(212, 24);
             this.Combobox_miasta.TabIndex = 2;
             this.Combobox_miasta.SelectedIndexChanged += new System.EventHandler(this.Combobox_miasta_SelectedIndexChanged);
             // 
             // Umowionespotkaniabtn
             // 
-            this.Umowionespotkaniabtn.Location = new System.Drawing.Point(69, 443);
+            this.Umowionespotkaniabtn.BackColor = System.Drawing.Color.Transparent;
+            this.Umowionespotkaniabtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Umowionespotkaniabtn.Location = new System.Drawing.Point(87, 22);
             this.Umowionespotkaniabtn.Margin = new System.Windows.Forms.Padding(4);
             this.Umowionespotkaniabtn.Name = "Umowionespotkaniabtn";
-            this.Umowionespotkaniabtn.Size = new System.Drawing.Size(161, 26);
+            this.Umowionespotkaniabtn.Size = new System.Drawing.Size(170, 39);
             this.Umowionespotkaniabtn.TabIndex = 4;
-            this.Umowionespotkaniabtn.Text = "umowione spotkania";
-            this.Umowionespotkaniabtn.UseVisualStyleBackColor = true;
+            this.Umowionespotkaniabtn.UseVisualStyleBackColor = false;
             this.Umowionespotkaniabtn.Click += new System.EventHandler(this.Umowionespotkaniabtn_Click);
             // 
             // umow_wizyte_btn
             // 
-            this.umow_wizyte_btn.Location = new System.Drawing.Point(69, 476);
+            this.umow_wizyte_btn.Location = new System.Drawing.Point(824, 92);
             this.umow_wizyte_btn.Margin = new System.Windows.Forms.Padding(4);
             this.umow_wizyte_btn.Name = "umow_wizyte_btn";
             this.umow_wizyte_btn.Size = new System.Drawing.Size(161, 26);
@@ -83,12 +87,13 @@
             // 
             // Szukaj_btn
             // 
-            this.Szukaj_btn.Location = new System.Drawing.Point(349, 357);
+            this.Szukaj_btn.BackColor = System.Drawing.Color.Transparent;
+            this.Szukaj_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Szukaj_btn.Location = new System.Drawing.Point(563, 118);
             this.Szukaj_btn.Name = "Szukaj_btn";
-            this.Szukaj_btn.Size = new System.Drawing.Size(75, 23);
+            this.Szukaj_btn.Size = new System.Drawing.Size(139, 44);
             this.Szukaj_btn.TabIndex = 6;
-            this.Szukaj_btn.Text = "szukaj";
-            this.Szukaj_btn.UseVisualStyleBackColor = true;
+            this.Szukaj_btn.UseVisualStyleBackColor = false;
             this.Szukaj_btn.Click += new System.EventHandler(this.Szukaj_btn_Click);
             // 
             // umowione_wizyty1
@@ -105,6 +110,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ProjektProgramowanie_MainPage.Properties.Resources.Strona_Głowna1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1032, 546);
             this.Controls.Add(this.Szukaj_btn);
             this.Controls.Add(this.umow_wizyte_btn);
@@ -112,6 +119,7 @@
             this.Controls.Add(this.Combobox_miasta);
             this.Controls.Add(this.doctorDataGridView);
             this.Controls.Add(this.umowione_wizyty1);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
