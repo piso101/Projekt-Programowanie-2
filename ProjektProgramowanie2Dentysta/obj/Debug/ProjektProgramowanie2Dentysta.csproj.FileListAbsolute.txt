@@ -9,3 +9,14 @@ D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\Projek
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.exe
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.pdb
 D:\Studia\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Form2.resources
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe.config
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.exe
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.AssemblyReference.cache
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.SuggestedBindingRedirects.cache
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Form2.resources
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.Properties.Resources.resources
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.GenerateResource.cache
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.csproj.CoreCompileInputs.cache
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.exe
+C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\ProjektProgramowanie2Dentysta\obj\Debug\ProjektProgramowanie2Dentysta.pdb
