@@ -18,7 +18,7 @@ namespace ProjektProgramowanie2Dentysta
     public partial class Form2 : Form
     {
 		public static int user_id;
-		public static int doctor_id = 1; //doctor id (do zmiany)
+		public static int doctor_id;
 		public static string picked_date;
 		public static string picked_time;
 		static bool date_bool = false;
@@ -33,6 +33,10 @@ namespace ProjektProgramowanie2Dentysta
 		public void Userd_id(int id)
 		{
 			user_id = id;
+		}
+		public void Doctor_id(int id)
+		{
+			doctor_id = id;
 		}
 		private void main_btn_Click(object sender, EventArgs e)
 		{

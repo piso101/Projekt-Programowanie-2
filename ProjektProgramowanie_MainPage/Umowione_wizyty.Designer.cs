@@ -40,15 +40,18 @@
 			this.wizyty_view.AllowUserToDeleteRows = false;
 			this.wizyty_view.AllowUserToResizeColumns = false;
 			this.wizyty_view.AllowUserToResizeRows = false;
-			this.wizyty_view.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+			this.wizyty_view.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.wizyty_view.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.wizyty_view.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
 			this.wizyty_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.wizyty_view.Location = new System.Drawing.Point(16, 131);
+			this.wizyty_view.Location = new System.Drawing.Point(16, 326);
+			this.wizyty_view.Margin = new System.Windows.Forms.Padding(0);
 			this.wizyty_view.Name = "wizyty_view";
 			this.wizyty_view.ReadOnly = true;
 			this.wizyty_view.ShowCellToolTips = false;
 			this.wizyty_view.ShowEditingIcon = false;
-			this.wizyty_view.Size = new System.Drawing.Size(800, 440);
+			this.wizyty_view.Size = new System.Drawing.Size(800, 245);
 			this.wizyty_view.TabIndex = 0;
 			// 
 			// hide_btn
