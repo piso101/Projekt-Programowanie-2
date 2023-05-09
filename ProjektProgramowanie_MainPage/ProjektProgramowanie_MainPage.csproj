@@ -71,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Umowione_wizyty.resx">
       <DependentUpon>Umowione_wizyty.cs</DependentUpon>
@@ -93,6 +94,9 @@
       <Project>{1be0c5b8-7cb2-4702-bae9-f0890b7a02fc}</Project>
       <Name>ProjektProgramowanie2Dentysta</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strona Głowna1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
