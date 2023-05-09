@@ -69,5 +69,15 @@ namespace ProjektProgramowanie_MainPage.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Strona_Głowna1 {
+            get {
+                object obj = ResourceManager.GetObject("Strona Głowna1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
