@@ -45,13 +45,13 @@
 			this.wizyty_view.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.wizyty_view.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
 			this.wizyty_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.wizyty_view.Location = new System.Drawing.Point(16, 326);
+			this.wizyty_view.Location = new System.Drawing.Point(16, 263);
 			this.wizyty_view.Margin = new System.Windows.Forms.Padding(0);
 			this.wizyty_view.Name = "wizyty_view";
 			this.wizyty_view.ReadOnly = true;
 			this.wizyty_view.ShowCellToolTips = false;
 			this.wizyty_view.ShowEditingIcon = false;
-			this.wizyty_view.Size = new System.Drawing.Size(800, 245);
+			this.wizyty_view.Size = new System.Drawing.Size(800, 308);
 			this.wizyty_view.TabIndex = 0;
 			// 
 			// hide_btn
