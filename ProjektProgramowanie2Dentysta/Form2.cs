@@ -138,7 +138,6 @@ namespace ProjektProgramowanie2Dentysta
 				while (reader.Read())
 				{
 					hour = reader["meeting_time"].ToString();
-					Console.WriteLine(hour);
 					godziny.Add(hour);
 				}
 				reader.Close();
@@ -169,8 +168,12 @@ namespace ProjektProgramowanie2Dentysta
 
 		private void hour_box_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			picked_time = hour_box.SelectedItem.ToString();
-			if(picked_time != "Proszę wybrać datę.") time_bool = true;
+			try
+			{
+				picked_time = hour_box.SelectedItem.ToString();
+				if (picked_time != "Proszę wybrać datę.") time_bool = true;
+			}
+			catch { }
 		}
 
 		private void name_box_TextChanged(object sender, EventArgs e)

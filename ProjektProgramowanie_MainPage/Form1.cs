@@ -73,7 +73,10 @@ namespace ProjektProgramowanie_MainPage
 			wybierz.Text = "Umów";
 			wybierz.UseColumnTextForButtonValue = true;
 			int len = doctorDataGridView.Columns.Count; // sprawdza ile kolumn zanim doda przycisk
-			doctorDataGridView.Columns.Insert(len, wybierz);
+			if (doctorDataGridView.Columns.Contains("Umów")==false)
+			{
+				doctorDataGridView.Columns.Insert(len, wybierz);
+			}
 			this.doctorDataGridView.Columns["id"].Visible = false;
 			this.doctorDataGridView.Columns["first_name"].HeaderText = "Imię lekarza";
 			this.doctorDataGridView.Columns["last_name"].HeaderText = "Nazwisko lekarza";
@@ -101,9 +104,8 @@ namespace ProjektProgramowanie_MainPage
 						//pobieramy wartosci z datagrv
 						ProjektProgramowanie2Dentysta.Form2 fbook = new ProjektProgramowanie2Dentysta.Form2();
 						fbook.Userd_id(user_id);
-						fbook.Userd_id(id);
+						fbook.Doctor_id(id);
 						fbook.Show();
-						Console.WriteLine("form1 " + id);
 					}
 					catch (Exception ex)
 					{
