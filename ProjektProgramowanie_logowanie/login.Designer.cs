@@ -28,70 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.registerButton = new System.Windows.Forms.Button();
-			this.zalogujButton = new System.Windows.Forms.Button();
-			this.loginuserBox = new System.Windows.Forms.TextBox();
-			this.passworduserBox = new System.Windows.Forms.TextBox();
-			this.SuspendLayout();
-			// 
-			// registerButton
-			// 
-			this.registerButton.BackColor = System.Drawing.Color.Transparent;
-			this.registerButton.FlatAppearance.BorderSize = 0;
-			this.registerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-			this.registerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-			this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.registerButton.Location = new System.Drawing.Point(310, 258);
-			this.registerButton.Margin = new System.Windows.Forms.Padding(2);
-			this.registerButton.Name = "registerButton";
-			this.registerButton.Size = new System.Drawing.Size(84, 27);
-			this.registerButton.TabIndex = 0;
-			this.registerButton.UseVisualStyleBackColor = false;
-			this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
-			// 
-			// zalogujButton
-			// 
-			this.zalogujButton.Location = new System.Drawing.Point(205, 258);
-			this.zalogujButton.Margin = new System.Windows.Forms.Padding(2);
-			this.zalogujButton.Name = "zalogujButton";
-			this.zalogujButton.Size = new System.Drawing.Size(84, 27);
-			this.zalogujButton.TabIndex = 1;
-			this.zalogujButton.Text = "button1";
-			this.zalogujButton.UseVisualStyleBackColor = true;
-			this.zalogujButton.Click += new System.EventHandler(this.zalogujButton_Click);
-			// 
-			// loginuserBox
-			// 
-			this.loginuserBox.Location = new System.Drawing.Point(232, 149);
-			this.loginuserBox.Margin = new System.Windows.Forms.Padding(2);
-			this.loginuserBox.Name = "loginuserBox";
-			this.loginuserBox.Size = new System.Drawing.Size(151, 20);
-			this.loginuserBox.TabIndex = 2;
-			// 
-			// passworduserBox
-			// 
-			this.passworduserBox.Location = new System.Drawing.Point(232, 196);
-			this.passworduserBox.Margin = new System.Windows.Forms.Padding(2);
-			this.passworduserBox.Name = "passworduserBox";
-			this.passworduserBox.Size = new System.Drawing.Size(151, 20);
-			this.passworduserBox.TabIndex = 3;
-			this.passworduserBox.TextChanged += new System.EventHandler(this.passworduserBox_TextChanged);
-			// 
-			// login
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::projektProgramowanie_logowanie.Properties.Resources.Logowanie;
-			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-			this.Controls.Add(this.passworduserBox);
-			this.Controls.Add(this.loginuserBox);
-			this.Controls.Add(this.zalogujButton);
-			this.Controls.Add(this.registerButton);
-			this.Margin = new System.Windows.Forms.Padding(2);
-			this.Name = "login";
-			this.Size = new System.Drawing.Size(598, 367);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.registerButton = new System.Windows.Forms.Button();
+            this.zalogujButton = new System.Windows.Forms.Button();
+            this.loginuserBox = new System.Windows.Forms.TextBox();
+            this.passworduserBox = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // registerButton
+            // 
+            this.registerButton.BackColor = System.Drawing.Color.Transparent;
+            this.registerButton.FlatAppearance.BorderSize = 0;
+            this.registerButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.registerButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registerButton.Location = new System.Drawing.Point(426, 318);
+            this.registerButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.registerButton.Name = "registerButton";
+            this.registerButton.Size = new System.Drawing.Size(112, 33);
+            this.registerButton.TabIndex = 0;
+            this.registerButton.UseVisualStyleBackColor = false;
+            this.registerButton.Click += new System.EventHandler(this.registerButton_Click);
+            // 
+            // zalogujButton
+            // 
+            this.zalogujButton.BackColor = System.Drawing.Color.Transparent;
+            this.zalogujButton.FlatAppearance.BorderSize = 0;
+            this.zalogujButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.zalogujButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.zalogujButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zalogujButton.Location = new System.Drawing.Point(265, 318);
+            this.zalogujButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.zalogujButton.Name = "zalogujButton";
+            this.zalogujButton.Size = new System.Drawing.Size(112, 33);
+            this.zalogujButton.TabIndex = 1;
+            this.zalogujButton.UseVisualStyleBackColor = false;
+            this.zalogujButton.Click += new System.EventHandler(this.zalogujButton_Click);
+            // 
+            // loginuserBox
+            // 
+            this.loginuserBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.loginuserBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.loginuserBox.Location = new System.Drawing.Point(309, 188);
+            this.loginuserBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.loginuserBox.Name = "loginuserBox";
+            this.loginuserBox.Size = new System.Drawing.Size(200, 15);
+            this.loginuserBox.TabIndex = 2;
+            // 
+            // passworduserBox
+            // 
+            this.passworduserBox.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.passworduserBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.passworduserBox.Location = new System.Drawing.Point(309, 243);
+            this.passworduserBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.passworduserBox.Name = "passworduserBox";
+            this.passworduserBox.Size = new System.Drawing.Size(200, 15);
+            this.passworduserBox.TabIndex = 3;
+            this.passworduserBox.TextChanged += new System.EventHandler(this.passworduserBox_TextChanged);
+            // 
+            // login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::projektProgramowanie_logowanie.Properties.Resources.Logowanie;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.passworduserBox);
+            this.Controls.Add(this.loginuserBox);
+            this.Controls.Add(this.zalogujButton);
+            this.Controls.Add(this.registerButton);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "login";
+            this.Size = new System.Drawing.Size(797, 452);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

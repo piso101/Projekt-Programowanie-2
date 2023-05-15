@@ -16,5 +16,10 @@ namespace projektProgramowanie_logowanie
         {
             InitializeComponent();
         }
+
+        private void login1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

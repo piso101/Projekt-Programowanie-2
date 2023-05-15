@@ -36,11 +36,13 @@
             // login1
             // 
             this.login1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("login1.BackgroundImage")));
-            this.login1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.login1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.login1.Location = new System.Drawing.Point(1, -1);
+            this.login1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.login1.Name = "login1";
             this.login1.Size = new System.Drawing.Size(797, 452);
             this.login1.TabIndex = 0;
+            this.login1.Load += new System.EventHandler(this.login1_Load);
             // 
             // register1
             // 

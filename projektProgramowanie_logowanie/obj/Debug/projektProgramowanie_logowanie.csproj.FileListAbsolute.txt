@@ -92,3 +92,6 @@ C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\projektProgramo
 C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.csproj.CopyComplete
 C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.exe
 C:\Users\katar\OneDrive\Dokumenty\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\obj\Debug\projektProgramowanie_logowanie.pdb
+C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe
+C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.pdb
+C:\Users\Lord Olaf\Documents\GitHub\Projekt-Programowanie-2\projektProgramowanie_logowanie\bin\Debug\ProjektProgramowanie2Dentysta.exe.config

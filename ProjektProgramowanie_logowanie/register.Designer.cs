@@ -39,43 +39,55 @@
             // 
             // newlogin
             // 
+            this.newlogin.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.newlogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.newlogin.Location = new System.Drawing.Point(311, 163);
             this.newlogin.Name = "newlogin";
-            this.newlogin.Size = new System.Drawing.Size(195, 22);
+            this.newlogin.Size = new System.Drawing.Size(195, 15);
             this.newlogin.TabIndex = 0;
             // 
             // newpassword
             // 
+            this.newpassword.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.newpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.newpassword.Location = new System.Drawing.Point(311, 208);
             this.newpassword.Name = "newpassword";
-            this.newpassword.Size = new System.Drawing.Size(195, 22);
+            this.newpassword.Size = new System.Drawing.Size(195, 15);
             this.newpassword.TabIndex = 1;
             this.newpassword.TextChanged += new System.EventHandler(this.newpassword_TextChanged);
             // 
             // newemail
             // 
+            this.newemail.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.newemail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.newemail.Location = new System.Drawing.Point(311, 253);
             this.newemail.Name = "newemail";
-            this.newemail.Size = new System.Drawing.Size(195, 22);
+            this.newemail.Size = new System.Drawing.Size(195, 15);
             this.newemail.TabIndex = 2;
             // 
             // phonenmbr
             // 
+            this.phonenmbr.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.phonenmbr.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.phonenmbr.Location = new System.Drawing.Point(311, 298);
             this.phonenmbr.Name = "phonenmbr";
-            this.phonenmbr.Size = new System.Drawing.Size(195, 22);
+            this.phonenmbr.Size = new System.Drawing.Size(195, 15);
             this.phonenmbr.TabIndex = 3;
             this.phonenmbr.TextChanged += new System.EventHandler(this.phonenmbr_TextChanged);
             this.phonenmbr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.phonenmbr_KeyPress);
             // 
             // newregisterButton
             // 
+            this.newregisterButton.BackColor = System.Drawing.Color.Transparent;
+            this.newregisterButton.FlatAppearance.BorderSize = 0;
+            this.newregisterButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.newregisterButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.newregisterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.newregisterButton.Location = new System.Drawing.Point(290, 351);
             this.newregisterButton.Name = "newregisterButton";
             this.newregisterButton.Size = new System.Drawing.Size(216, 29);
             this.newregisterButton.TabIndex = 4;
-            this.newregisterButton.Text = "button1";
-            this.newregisterButton.UseVisualStyleBackColor = true;
+            this.newregisterButton.UseVisualStyleBackColor = false;
             this.newregisterButton.Click += new System.EventHandler(this.newregisterButton_Click);
             // 
             // backbutton
@@ -93,7 +105,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
+            this.button1.Text = "Cofnij";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -101,8 +113,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.BackgroundImage = global::projektProgramowanie_logowanie.Properties.Resources.Rejestracja;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.backbutton);
             this.Controls.Add(this.newregisterButton);
