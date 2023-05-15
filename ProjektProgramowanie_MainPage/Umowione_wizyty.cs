@@ -26,7 +26,7 @@ namespace ProjektProgramowanie_MainPage
 			user_id = Form1.user_id;
 			wizyty_view_load();
 		}
-		private void wizyty_view_load()
+		public void wizyty_view_load()
 		{
 			cn.Open();
 			SqlCommand cmd = new SqlCommand();

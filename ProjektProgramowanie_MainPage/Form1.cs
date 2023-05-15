@@ -53,6 +53,7 @@ namespace ProjektProgramowanie_MainPage
 
 		private void Umowionespotkaniabtn_Click(object sender, EventArgs e)
 		{
+			umowione_wizyty1.wizyty_view_load();
 			umowione_wizyty1.Show();
 			umowione_wizyty1.BringToFront();
 		}
